@@ -1,10 +1,46 @@
+ .boxes{
+border: 3px solid red;
+position:relative;
+width: 500px;
+height: 500px;
+}
 .box{
-    background-color: red;
-    border: 3px solid lightblue;
+width: 100px;
+height: 100px;
+border-radius: 100px;
+position :relative;
+border:3px solid;
 }
-.text{
-    padding: 0;
-    margin: 20px;
-    border: 3px solid black;
-    padding: 5px;
+.box-one{
+   background-color: transparent;
+    border-color: red;
+    position:relative;
+    left:100px;
 }
+ .box-two{
+    background-color: transparent;
+    border-color: yellow;
+    position:relative;
+    left:90px;
+    top:-20px;
+ }
+ .box-three{
+    background-color: transparent;
+    position: relative;
+    border-color: black;
+    left:130px;
+    top:-200px;
+  
+ }
+ .box-four{
+    background-color: transparent;
+    border-color: blue;
+    top:-230px;
+    left:150px;
+ }
+ .box-five{
+    background-color: transparent;
+    border-color: green;
+left:215px;
+top:-400px;
+ }
